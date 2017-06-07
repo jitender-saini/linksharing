@@ -3,7 +3,7 @@ package com.ttn.linksharing
 class BootStrap {
 
     def init = { servletContext ->
-//        createUser()
+        createUser()
 //        createTopics()
 //        addResources()
 //        subscribeTopics()
@@ -12,7 +12,7 @@ class BootStrap {
         log.info("Application Started")
     }
 
-/*
+
     void createUser() {
         if (User.count() == 0) {
             User adminUser = new User(userName: "jaysaini", firstName: "Jay", lastName: "Saini", password: Constant.password, email: "jitender.saini@ttn.com",
@@ -20,9 +20,6 @@ class BootStrap {
 
             User user = new User(userName: "sam123", firstName: "Sam", lastName: "Saini", password: Constant.password, email: "sam@ttn.com",
                     isActive: true, isAdmin: false, confirmPassword: Constant.password)
-
-//        adminUser.save(flush:true,failOnError : true)
-//        user.save(flush:true,failOnError : true)
 
             adminUser.save(flush: true)
             user.save(flush: true)
@@ -36,7 +33,7 @@ class BootStrap {
             }
         }
     }
-
+/*
     void createTopics() {
         if (Topic.count() == 0) {
             def topicName = ['Groovy', 'Grails', 'Java', 'Spring', 'BootStrap']
