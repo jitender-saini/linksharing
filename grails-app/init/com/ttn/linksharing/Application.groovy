@@ -2,12 +2,7 @@ package com.ttn.linksharing
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
-import org.springframework.beans.factory.config.YamlPropertiesFactoryBean
-import org.springframework.core.env.Environment
-import org.springframework.core.env.PropertiesPropertySource
-import org.springframework.core.io.FileSystemResource
-import org.springframework.core.io.Resource
-import org.springframework.context.EnvironmentAware
+
 
 class Application extends GrailsAutoConfiguration {  //implements EnvironmentAware
     static void main(String[] args) {
