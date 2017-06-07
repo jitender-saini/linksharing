@@ -1,5 +1,7 @@
 package com.ttn.linksharing
 
+import com.ttn.linksharing.constant.Constant
+
 class BootStrap {
 
     def init = { servletContext ->
