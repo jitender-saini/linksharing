@@ -1,0 +1,32 @@
+#server:
+#    contextPath: /linksharing
+#    port: 8090
+
+grails:
+  mail:
+    host: "smtp.gmail.com"
+    port: 465
+    username: "jsaini.coder@gmail.com"
+    password: "links-sharing"
+    props:
+      mail.smtp.auth: "true"
+      mail.smtp.socketFactory.port: "465"
+      mail.smtp.socketFactory.class: "javax.net.ssl.SSLSocketFactory"
+      mail.smtp.socketFactory.fallback: "false"
+#      overrideAddress: "jitender.saini@tothenew.com"
+
+resource:
+  document:
+    folderPath: "/var/linkSharing/documents/"
+
+quartz:
+    autoStartup: false
+    jdbcStore:  false
+
+environments:
+    test:
+        quartz:
+            autoStartup: false
+
+#grails:
+#  serverURL: "localhost:8080"
