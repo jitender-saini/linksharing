@@ -13,27 +13,27 @@
     <div class="panel-body regForm">
         <g:form controller="user" action="register" id="userRegistrationForm"
                 enctype="multipart/form-data" >
-            <div class="form-element-container"><input id="firstName" name="firstName"
+            <div class="form-element-container"><input id="firstName" name="firstName" required
                                                        placeholder="First Name"
                                                        type="text" class="input-txt form-control"/></div>
 
-            <div class="form-element-container"><input id="lastName" name="lastName"
+            <div class="form-element-container"><input id="lastName" name="lastName" required
                                                        placeholder="Last Name"
                                                        type="text" class="input-txt form-control"/></div>
 
-            <div class="form-element-container"><input id="email" name="email" placeholder="Email Address"
+            <div class="form-element-container"><input id="email" name="email" placeholder="Email Address" required
                                                        type="email" class="input-txt form-control"/></div>
 
-            <div class="form-element-container"><input id="userName" name="userName"
+            <div class="form-element-container"><input id="userName" name="userName" required
                                                        placeholder="User Name"
                                                        type="text" class="input-txt form-control"/></div>
 
-            <div class="form-element-container"><input id="password" name="password"
+            <div class="form-element-container"><input id="password" name="password" required
                                                        placeholder="Password"
                                                        type="password"  pattern=".{5,20}"
                                                        class="input-txt form-control"/></div>
 
-            <div class="form-element-container"><input id="confirmPassword" name="confirmPassword"
+            <div class="form-element-container"><input id="confirmPassword" name="confirmPassword" required
                                                        placeholder="Re-enter password" type="password" pattern=".{5,20}"
                                                        class="input-txt form-control"/></div>
 

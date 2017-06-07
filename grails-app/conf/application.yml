@@ -108,7 +108,7 @@ environments:
         dataSource:
             username: root
             password: igdefault
-            dbCreate: update
+            dbCreate: create-drop
             url: jdbc:mysql://qa2.intelligrape.net:3306/myc-jit
     test:
         dataSource:

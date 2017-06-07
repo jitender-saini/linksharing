@@ -7,7 +7,7 @@
 //
 //= require jquery-2.2.0.min
 //= require jquery.validate
-//= require register
+// require register
 //= require bootstrap
 // srequire login
 //= require app
@@ -15,3 +15,20 @@
 //  srequire_tree .
 //= require_self
 
+
+
+//confirm password
+
+var password = document.getElementById("password")
+    , confirmPassword = document.getElementById("confirmPassword");
+
+function validatePassword(){
+    if(password.value != confirmPassword.value) {
+        confirmPassword.setCustomValidity("Passwords Don't Match");
+    } else {
+        confirmPassword.setCustomValidity('');
+    }
+}
+
+password.onchange = validatePassword;
+confirmPassword.onkeyup = validatePassword;

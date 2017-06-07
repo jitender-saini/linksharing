@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
             }
         },
         submitHandler: function(form){
-            alert("submit called");
+            // alert("submit called");
             //form.submit();
             return false;
         }
@@ -38,6 +38,6 @@ jQuery(document).ready(function(){
 
 });
 function validateUserRegistrationForm() {
-    alert("c   alled");
+    // alert("c   alled");
     jQuery("#userRegistrationForm").valid()
 }
