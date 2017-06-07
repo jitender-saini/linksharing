@@ -1,0 +1,60 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require font-awesome
+*= require login
+*= require post
+*= require_self
+*/
+
+.custom-body {
+    background-color: #bce8f1;
+}
+
+.custom-heading {
+    background-color: rgb(51, 122, 183) !important;
+    color: white !important;
+}
+
+.main-page {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.scrollable {
+    max-height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollable-lg {
+    max-height: 800px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(51, 122, 183);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,78 @@
+.form-signin input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vertical-offset-100 {
+    padding-top: 100px;
+}
+
+/*.panel {*/
+/*margin-bottom: 20px;*/
+/*background-color: rgba(255, 255, 255, 0.85);*/
+/*border: 1px solid transparent;*/
+/*border-radius: 4px;*/
+/*-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+/*box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+/*}*/
+
+input {
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    height: 30px;
+    width: 100%;
+    background: #e2e2e2;
+    padding: 0px;
+    -moz-appearance: none;
+}
+
+select {
+    margin-bottom: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 0em #fff;
+}
+
+select > option {
+    background: #fff;
+}
+
+div.errorRegistration {
+    color: red;
+    background: rgba(234, 155, 055, 0.35);
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px red;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.img-size {
+    width: 130px;
+    margin: auto;
+}
